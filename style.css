@@ -52,12 +52,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 205px;
-  bottom: 0;
-  background-color: hsl(150, 100%, 66%);
   border-style: none;
   cursor: pointer;
+  background-color: hsl(150, 100%, 66%);
+
+position: absolute;
+  bottom: -20px; /* Posicione o botão 10px acima da borda inferior do elemento pai */
+  left: 50%; /* Posicione o botão no centro horizontal do elemento pai */
+  transform: translateX(-50%); /* Centralize horizontalmente o botão */
 }
 
 .button img {
