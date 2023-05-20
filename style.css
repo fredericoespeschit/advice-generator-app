@@ -57,6 +57,7 @@
   bottom: 0;
   background-color: hsl(150, 100%, 66%);
   border-style: none;
+  cursor: pointer;
 }
 
 .button img {
